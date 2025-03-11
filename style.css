@@ -1,0 +1,39 @@
+body {
+  padding: 16px;
+}
+
+.testContainer {
+  background: #43b6ed;
+  height: 250px;
+  margin: 0px 32px;
+  padding: 32px;
+}
+
+.testContainer p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.testContainer code {
+  background-color: #000;
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+
+.testContainer code a {
+  text-decoration: none;
+  color: #41ff00;
+}
+
+.testContainer p small {
+  color: orange;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 16px 32px;
+}
