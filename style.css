@@ -4,7 +4,6 @@ body {
 
 .testContainer {
   background: #43b6ed;
-  height: 250px;
   margin: 0px 32px;
   padding: 32px;
 }
@@ -13,6 +12,11 @@ body {
   color: #fff;
   font-size: 15px;
   font-weight: 700;
+  margin: 16px 0px 0px;
+}
+
+.testContainer p:first-child {
+  margin: 0px;
 }
 
 .testContainer code {
@@ -36,4 +40,11 @@ body {
   justify-content: center;
   gap: 16px;
   margin: 16px 32px;
+}
+
+@media screen and (max-width: 540px) {
+  .testContainer {
+      margin: 0px;
+      padding: 24px 16px;
+  }
 }
